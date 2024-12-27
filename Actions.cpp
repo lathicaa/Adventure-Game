@@ -81,7 +81,6 @@ void Actions::handleAction(Inventory& inventory, const std::string& action, Item
     }
 }
 
-//dealing with pocket watch
 void Actions::takePocketWatch(Inventory& inventory, Items* pocketWatch) {
     handleAction(inventory, "take", pocketWatch);
 }
@@ -95,7 +94,6 @@ void Actions::usePocketWatch(Inventory& inventory, Items* pocketWatch) {
 }
 
 
-//dealing with mad hatters hat
 void Actions::takemadHattersHat(Inventory& inventory, Items* madHattersHat) {
     handleAction(inventory, "take", madHattersHat);
 }
@@ -109,7 +107,6 @@ void Actions::usemadHattersHat(Inventory& inventory, Items* madHattersHat) {
 }
 
 
-//dealing with drink me bottle
 void Actions::takedrinkMeBottle(Inventory& inventory, Items* drinkMeBottle) {
     handleAction(inventory, "take", drinkMeBottle);
 }
@@ -123,7 +120,6 @@ void Actions::usedrinkMeBottle(Inventory& inventory, Items* drinkMeBottle) {
 }
 
 
-//deaaling with eat me cake
 void Actions::takeeatMeCake(Inventory& inventory, Items* eatMeCake) {
     handleAction(inventory, "take", eatMeCake);
 }
@@ -137,7 +133,6 @@ void Actions::useeatMeCake(Inventory& inventory, Items* eatMeCake) {
 }
 
 
-//dealing with card soldiers
 void Actions::takecardSoldiers(Inventory& inventory, Items* cardSoldiers) {
     handleAction(inventory, "take", cardSoldiers);
 }
@@ -151,7 +146,6 @@ void Actions::usecardSoldiers(Inventory& inventory, Items* cardSoldiers) {
 }
 
 
-//dealing with chronosphere
 void Actions::takechronosphere(Inventory& inventory, Items* chronosphere) {
     handleAction(inventory, "take", chronosphere);
 }
@@ -165,7 +159,6 @@ void Actions::usechronosphere(Inventory& inventory, Items* chronosphere) {
 }
 
 
-//dealing with key
 void Actions::takekey(Inventory& inventory, Items* key) {
     handleAction(inventory, "take", key);
 }
@@ -179,7 +172,6 @@ void Actions::usekey(Inventory& inventory, Items* key) {
 }
 
 
-//dealing with comfits
 void Actions::takecomfits(Inventory& inventory, Items* comfits) {
     handleAction(inventory, "take", comfits);
 }
@@ -193,7 +185,6 @@ void Actions::usecomfits(Inventory& inventory, Items* comfits) {
 }
 
 
-//dealing with vorpal sword
 void Actions::takevorpalSword(Inventory& inventory, Items* vorpalSword) {
     handleAction(inventory, "take", vorpalSword);
 }
@@ -207,7 +198,6 @@ void Actions::usevorpalSword(Inventory& inventory, Items* vorpalSword) {
 }
 
 
-//dealing with cheshire cat smile
 void Actions::takecheshireSmile(Inventory& inventory, Items* cheshireSmile) {
     handleAction(inventory, "take", cheshireSmile);
 }
@@ -221,7 +211,6 @@ void Actions::usecheshireSmile(Inventory& inventory, Items* cheshireSmile) {
 }
 
 
-//dealing with doorknob
 void Actions::takedoorknob(Inventory& inventory, Items* doorknob) {
     handleAction(inventory, "take", doorknob);
 }
@@ -235,7 +224,6 @@ void Actions::usedoorknob(Inventory& inventory, Items* doorknob) {
 }
 
 
-//dealing with oraculum
 void Actions::takeoraculum(Inventory& inventory, Items* oraculum) {
     handleAction(inventory, "take", oraculum);
 }
